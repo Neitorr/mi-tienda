@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Remera Oversize Negra",
+    "price": "$12.000",
+    "image": "https://via.placeholder.com/300x300.png?text=Remera+Negra"
+  },
+  {
+    "name": "Buzo Hoodie Beige",
+    "price": "$25.000",
+    "image": "https://via.placeholder.com/300x300.png?text=Buzo+Beige"
+  },
+  {
+    "name": "Campera Puffer Azul",
+    "price": "$40.000",
+    "image": "https://via.placeholder.com/300x300.png?text=Campera+Azul"
+  }
+]
