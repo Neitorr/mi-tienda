@@ -9,3 +9,22 @@
   <h3>Remera Negra</h3>
   <p>$8000</p>
 </div>
+
+<script>
+document.querySelectorAll('.carousel').forEach(carousel => {
+  let index = 0;
+  const images = carousel.querySelectorAll('img');
+  const showImage = (i) => {
+    images.forEach(img => img.classList.remove('active'));
+    images[i].classList.add('active');
+  };
+  carousel.querySelector('.next').onclick = () => {
+    index = (index + 1) % images.length;
+    showImage(index);
+  };
+  carousel.querySelector('.prev').onclick = () => {
+    index = (index - 1 + images.length) % images.length;
+    showImage(index);
+  };
+});
+</script>
